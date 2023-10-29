@@ -5,9 +5,9 @@ import { IoMdNotificationsOutline } from "react-icons/Io";
 import { MdFilterList } from "react-icons/Md";
 function TopSetting() {
   return (
-    <div className="px-6 flex justify-between w-full border-b-2 border-gray-300 h-12 items-center p-4 [&>*]:hover:cursor-pointer">
+    <div className="px-6 flex justify-between w-full border-b border-gray-200 h-12 items-center p-4 [&>*]:hover:cursor-pointer">
       <div className="flex gap-4 items-center  ">
-        <MdFilterList />
+        <MdFilterList className="border-2 text-2xl rounded" />
         <p className="font-bold">All Tickets</p>
       </div>
 

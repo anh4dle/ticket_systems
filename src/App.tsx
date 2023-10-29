@@ -1,13 +1,17 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import TopSetting from "./components/TopSetting";
+import SubSetting from "./components/SubSetting";
 
 function App() {
   return (
     <>
       <div className="flex h-screen">
         <Navbar />
-        <TopSetting />
+        <div className="w-full">
+          <TopSetting />
+          <SubSetting />
+        </div>
       </div>
     </>
   );
