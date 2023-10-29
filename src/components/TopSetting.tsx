@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./Button";
 import { AiOutlineSearch, AiOutlineUser } from "react-icons/ai";
 import { IoMdNotificationsOutline } from "react-icons/Io";

@@ -1,4 +1,3 @@
-import React from "react";
 import { TbFilterCog } from "react-icons/Tb";
 function SubSetting() {
   return (

@@ -1,7 +1,6 @@
-import React from "react";
 import { AiFillHome, AiOutlineFolderView } from "react-icons/ai";
 import { BsFillPeopleFill } from "react-icons/bs";
-import { TbCircleLetterV } from "react-icons/tb";
+import { TbCircleLetterV } from "react-icons/Tb";
 import { SiSimpleanalytics } from "react-icons/si";
 
 function Navbar() {

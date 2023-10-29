@@ -1,5 +1,3 @@
-import React from "react";
-
 function TicketCard() {
   return <div>TicketCard</div>;
 }
