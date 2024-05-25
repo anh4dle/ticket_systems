@@ -81,7 +81,7 @@ function SubSetting() {
               <div>
                 <Button
                   name="Delete"
-                  setState={() => {
+                  click={() => {
                     const newTickets = ticketsState.filter(
                       (ticket: any) => !ticket.checked
                     );

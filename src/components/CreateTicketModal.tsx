@@ -7,6 +7,7 @@ function CreateTicketModal({ setClose }: any) {
     } else if (e.target.className.includes("overlay")) setClose(false);
   };
   return ReactDOM.createPortal(
+    // to render this component outside of parent's DOM and in modal-root instead, this help with implement clicking outside component will close itself
     <div
       className="overlay h-screen fixed w-full flex items-center justify-center bg-slate-800 bg-opacity-50 z-20"
       onClick={handleClose}

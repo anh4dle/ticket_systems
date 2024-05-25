@@ -17,7 +17,7 @@ function TopSetting() {
 
       <div className="flex gap-4 items-center">
         <div className="text-small">
-          <Button name="Add" setState={() => setOpen(true)} />
+          <Button name="Add" click={() => setOpen(true)} />
           {open && <CreateTicketModal setClose={setOpen} />}
         </div>
         <div className="text-xl flex gap-4 items-center">
